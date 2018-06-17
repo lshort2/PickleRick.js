@@ -1,25 +1,27 @@
 /* Like Kanye */
 .pickleWrapper {
   position: fixed;
-  bottom: 0;/* might not need */
+  bottom: 0;
   top: 0;
   left: 0;
-  right: 0;/* might not need */
+  right: 0;
   z-index: 1337;
 }
 
 /* The meat and pickletatoes */
 img[class$="-rick"], img[class*="-rick "] {
   animation-fill-mode: forwards;
-  display: block;
   position: fixed;
   transition-timing-function: linear;
 }
 
 .pickle-rick {
+  animation-delay: .2s;
   animation-duration: 4s;
   animation-name: animatePickle;
   transform: rotate(-15deg);
+  top: 100%;
+  left: 90%;
   width: 30%;
 }
 
@@ -64,7 +66,7 @@ img[class$="-rick"], img[class*="-rick "] {
 }
 
 .sheriff-rick {
-  animation-delay: 4s;
+  animation-delay: 4.2s;
   animation-duration: 1.8s;
   animation-name: animateSheriff;
   width: 30%;
@@ -94,7 +96,7 @@ img[class$="-rick"], img[class*="-rick "] {
 
 
 .rat-suit-rick {
-  animation-delay: 5.8s;
+  animation-delay: 6s;
   animation-duration: 2.9s;
   animation-name: animateRatSuit;
   top: 100%;
