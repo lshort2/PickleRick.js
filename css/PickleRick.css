@@ -1,0 +1,49 @@
+/* Like Kanye */
+.pickleWrapper {
+  position: absolute;
+  bottom: 0;/* might not need */
+  top: 0;
+  left: 0;
+  right: 0;/* might not need */
+  z-index: 1337;
+}
+
+/* The meat and pickletatoes */
+div[class$="-rick"], div[class*="-rick "] {
+    color:red;
+    background-color:salmon;
+    height: 10px;
+    width: 10px;
+}
+
+.pickle-rick {
+  animation-duration: 3s;
+  animation-name: animatePickle;
+}
+
+@keyframes animatePickle {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.sheriff-rick {
+  animation-delay: 3s;
+  animation-duration: 4s;
+  animation-name: animatePickle;
+  /* animation-name: animateSheriff; */
+}
+
+.rat-suit-rick {
+  animation-delay: 7s;
+  animation-duration: 5s;
+  animation-name: animatePickle;
+  /* animation-name: animateRatSuit; */
+}
+
