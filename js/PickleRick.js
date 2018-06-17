@@ -51,20 +51,16 @@ function animateRick() {
 
   const rickTypes = ['pickle', 'sheriff', 'rat-suit'];
   rickTypes.forEach(function (rickname) {
-    let pickle = document.createElement("div");
+    let pickle = document.createElement("img");
     pickle.classList.add(rickname + '-rick');
+    pickle.src = 'img/pickle-rick-' + rickname + '.png';
     pickleWrapper.appendChild(pickle);
   });
 
-  console.log('pickleWrapper: ');
-  console.log(pickleWrapper);
-
   document.getElementsByTagName('body')[0].appendChild(pickleWrapper);
-
 }
 
 window.onload = function() {
-/*
   if(getCookie('PickleRick')) {
     console.log('Pickle Rick was here.');
   } else {
@@ -72,8 +68,5 @@ window.onload = function() {
     animateRick();
     setCookie('PickleRick', '1', NUM_DAYS);
   }
-*/
-
-  animateRick();
 }
 
