@@ -1,7 +1,7 @@
 # PickleRick.js
 ### A Pickle for your websites
 
-Example Website over at [https://lshort2.github.io/PickleRick.js/](https://lshort2.github.io/PickleRick.js/).
+Example Website over at [https://lshort2.github.io/PickleRick.js/](https://lukey-luke.github.io/PickleRick.js/).
 
 ![PickleRick.js](img/pickle-rick-wants-cookie.jpg)
 
